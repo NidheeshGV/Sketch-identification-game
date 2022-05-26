@@ -1,0 +1,59 @@
+body{
+    background-color: lavender;
+}
+
+h1{
+    background-color: white;
+    color: blue;
+}
+
+#show_sketch{
+    float: right;
+}
+
+#p1{
+font-weight: bold;
+font-size: 30px;
+}
+
+#p2{
+font-weight: bold;
+font-size: 30px;
+}
+
+#p3{
+font-weight: bold;
+font-size: 30px;
+color: red;
+}
+
+#p4{
+font-weight: bold;
+font-size: 30px;
+float: left;
+}
+
+#p5{
+font-weight: bold;
+font-size: 30px;
+float: right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+#p6{
+    font-weight: bold;
+    font-size: 30px;
+    }
